@@ -1,3 +1,63 @@
-h1 {
-  color: green;
+// Variables
+$bg-color: #FAFBFF;
+$bg-sidebar: #FFFFFF;
+$bg-main: #FAFBFF;
+$color-text_main: #000000;
+$color-accent: #5932EA;
+$link-color: #B5B7C0;
+$link-color_active: #FFFFFF;
+$link-bg: transparent;
+$link-bg_active: #5932EA;
+$color-logo_text: #000000;
+$color-logo_span: #838383;
+$color-title: #000000;
+$color-subtitle: #16C098;
+$color-status_text-active: #008767;
+$color-status_stroke-active: #00B087;
+$color-status_bg-active: rgba(22, 192, 152, 0.38);
+$color-status_text-active: #DF0404;
+$color-status_stroke-active: #DF0404;
+$color-status_bg-active: rgb(255, 197, 197);
+$text-size_main: 14px;
+$text-size_logo: 26px;
+$text-size_header: 24px;
+$text-size_title-h2: 22px;
+$text-size_subtitle: 14px;
+$text-size_small: 10px;
+$text-size_secondary: 12px;
+
+
+
+// Base
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: $text-size_main;
+  background-color: $bg-color;
+  line-height: 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+
